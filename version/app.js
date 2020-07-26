@@ -5,7 +5,7 @@ var response;
 
 app.get('/', function (req, res) {
 
-    response = 'Toto je verze 2 v češtině.' + '\n';
+    response = 'Toto je verze 3 v češtině.' + '\n';
 
     //send the response to the client
     res.send(response);
